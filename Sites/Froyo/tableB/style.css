@@ -1,0 +1,64 @@
+/* tables */
+
+/* 2012-03-22 */
+/*
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 1em;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 1em;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #09C;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+
+*/
+
+table       {
+	margin-bottom: 1.4em;
+	width:100%;
+	background-color: #FFF;
+}
+th          { font-weight: bold; }
+thead th 		{
+	background-color: #C3D9FF;
+}
+th,td,caption { padding: 8px 10px 8px 5px; }
+/*tr.even td  { background-color: #E5ECF9; }*/
+.odd {
+	background-color: #F0F0F0; }
+
+.even{
+	background-color: #FEF8F0; }
+
+tfoot       { font-style: italic; }
+caption     { background-color: #EEE; }
+-
